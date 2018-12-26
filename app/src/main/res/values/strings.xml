@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">WashintonDC</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="user_spinner_prompt">Select Car Type</string>
+    <string name="expense_spinner_prompt">Select Expense Type</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="carTypes">
+        <item>Hatchback</item>
+        <item>SUV</item>
+        <item>Sedan</item>
+    </string-array>
+    <string-array name="expenseTypes">
+        <item>Credit</item>
+        <item>Debit</item>
+    </string-array>
+    <string-array name="dailyReportTypes">
+        <item>Balances</item>
+        <item>Package-wise</item>
+        <item>Order-wise</item>
+    </string-array>
+    <string-array name="orderListTypes">
+        <item>Pending Orders</item>
+        <item>Completed Orders</item>
+    </string-array>
+</resources>

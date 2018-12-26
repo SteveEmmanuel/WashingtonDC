@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.nist.washintondc.CustomerDetails">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view1"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:longClickable="true"
+        android:orientation="vertical"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="4dp"
+        card_view:cardUseCompatPadding="true">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="7"
+                    android:padding="10dp">
+
+
+                    <EditText
+                        android:id="@+id/customerName"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:hint="Name"
+                        android:inputType="textPersonName"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="0dp" />
+
+                    <EditText
+                        android:id="@+id/customerRegistration"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:hint="Registration"
+                        android:inputType="text"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="0dp"/>
+                    <EditText
+                        android:id="@+id/customerCarName"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:hint="Car Name"
+                        android:inputType="text"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="0dp"/>
+
+                    <EditText
+                        android:id="@+id/customerPhoneNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:hint="Phone Number"
+                        android:inputType="phone"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="0dp"/>
+
+                    <EditText
+                        android:id="@+id/customerEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="0dp"/>
+<!--
+                    <Spinner
+                        android:id="@+id/customerCarType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginBottom="8dp"
+                        android:prompt="@string/user_spinner_prompt"/>-->
+                    <Button
+                        android:id="@+id/customerSubmit"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="Next"/>
+                </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+</FrameLayout>
+
+
+

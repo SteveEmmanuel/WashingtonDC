@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dailyReportExcelDownload"
+        android:title="Excel Sheet Download"
+        app:showAsAction="always"
+        android:icon="@drawable/download"/>
+    <item
+        android:id="@+id/dailyReportSpinner"
+        android:title="Daily Report Spinner"
+        app:actionViewClass="android.widget.Spinner"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/calendar"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/calendar"
+        />
+</menu>
